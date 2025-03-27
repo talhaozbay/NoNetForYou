@@ -1,5 +1,5 @@
 @echo off
-echo [!] Wi-fi, Ethernet ve Bluetooth servisleri açılıyor...
+echo [!] Wi-fi, Ethernet ve Bluetooth servisleri aciliyor...
 
 :: Kayıt defteri değeri değiştiriliyor
 REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip" /v Start /t REG_DWORD /d 0 /f

@@ -1,5 +1,5 @@
 @echo off
-echo [!] Wi-fi, Ethernet ve Bluetooth servisleri kapatılıyor...
+echo [!] Wi-fi, Ethernet ve Bluetooth servisleri kapatiliyor...
 
 :: Kayıt defteri değeri değiştiriliyor
 REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip" /v Start /t REG_DWORD /d 4 /f
